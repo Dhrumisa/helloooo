@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moth-I am differently able</title>
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #255255255;
+}
+
+.navbar a:active {
+  background: linear-gradient(to bottom, #99ccff 0%, #ff99cc 67%);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: none;
+  perspective: 10000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  margin:0px 500px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: yellow;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: black;
+  color: white;
+  transform: rotateX(180deg);
+}
+
+hr.new {
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+</style>
+</head>
+<body style="background-color: #ffccff">
+<section>
+<h1 style="font-size:35px;font-family:baskerville old face;text-align:center"><u>MOTH- Build your TRUE self</h1></u>
+
+<div class="navbar">
+  <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+<p style="font-family: postcard script;font-color:dark violet;font-size:40px;">Who we are</h2>
+<p style="font-size:25px;font-family:postcard script"><b>BREAKING BARRIERS: EMBRACING DIVERSITY AND INCLUSION FOR DISABLED INDIVIDUALS</b></p>
+<p style="font-size:25px;font-color:purple;font-family:postcard script">Let us together create a world where everyone can be truly themselves.Together, we can ensure a more inclusive society that empowers all its members, irrespective of their physical or cognitive differences, fostering an environment where everyone can shine.Don’t worry about sounding professional. Sound like you. There are over 1.5 billion people out there, but being yourself is what’s going to distinguish from the rest. If you read the words back and don’t hear your own voice in your head, that’s a good sign you still have more work to do.
+
+Be clear, be confident, and don’t overthink it. The beauty of the self is that it’s going to continue to evolve, Your goal should be to make it feel right for right now.</p>
+<hr class="new">
+</section>
+<section1>
+<p style="font-size: 50px">Build yourself from scratch</p>
+<p style="font-size: 30px">Are you ready to connect and make a difference in this world? Let's begin then</p>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>Connecting with people is one of the best ways to live life</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>Let’s connect with the world and enjoy people’s presence…Unlock the full potential of connection. Share with people who you truly are</h2>
+    </div>
+  </div>
+</div>
+<hr width=50%>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>New people, New cultures, New perspectives....</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>Socializing people is not as hard as it seems to be. Just be yourself and open up to this world. People are there for you to meet, talk and understand.</h2>
+    </div>
+  </div>
+</div>
+<hr width=50%>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>Discover the hidden truths</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>Let us connect, advocate, and share their experiences, dismantling societal misconceptions about disability and championing authenticity.</h2>
+    </div>
+  </div>
+</div>
+<hr class="new">
+</section1>
+<section2>
+<h1 style="color: black;size=50px;">Discover more about our connection</h1>
+<h2 style="font-size:30px">Share with people who you truly are, where you come from, the path you've taken, or the inspirations that fuel your passion. Let your creativity flow freely. Believe in yourself. How you narrate your story online can make a world of difference.
+
+Don't worry about sounding professional. Speak from your heart. With over 1.5 billion websites out there, it's your unique story that will set this one apart from the rest.
+</h2>
+<hr class='new'>
+<h1>Stay connected</h1>
+<h2 style="text-align:center">Tell people all about our amazing community and how they will be connected with like-minded individuals who share their interests, passions, and dreams.</h2>
+
+</section2>
+
+</body>
+</html>
